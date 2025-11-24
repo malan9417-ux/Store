@@ -1,0 +1,10 @@
+/ Add to User model
+wishlist: [{
+  type: mongoose.Schema.ObjectId,
+  ref: 'Product'
+}]
+
+// Add wishlist routes
+router.post('/wishlist/:productId', protect, addToWishlist);
+router.delete('/wishlist/:productId', protect, removeFromWishlist);
+router.get('/wishlist', protect, getWishlist);
