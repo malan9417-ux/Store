@@ -1,0 +1,9 @@
+# Create Next.js app
+npx create-next-app@latest ecommerce-frontend
+cd ecommerce-frontend
+
+# Install dependencies
+npm install axios react-query @stripe/stripe-js @stripe/react-stripe-js
+
+# Start development server
+npm run dev
