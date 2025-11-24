@@ -1,0 +1,17 @@
+# Create backend directory
+mkdir ecommerce-backend && cd ecommerce-backend
+
+# Initialize package.json
+npm init -y
+
+# Install dependencies
+npm install express mongoose bcryptjs jsonwebtoken cors dotenv stripe nodemailer express-validator multer cloudinary
+
+# Install dev dependencies
+npm install -D nodemon
+
+# Create environment file
+cp .env.example .env
+
+# Start development server
+npm run dev
