@@ -1,0 +1,10 @@
+variants: [{
+  name: String, // e.g., "Color", "Size"
+  values: [String], // e.g., ["Red", "Blue", "Green"]
+  priceAdjustment: Number
+}],
+inventory: [{
+  variant: String, // e.g., "Red-Small"
+  stock: Number,
+  sku: String
+}]
