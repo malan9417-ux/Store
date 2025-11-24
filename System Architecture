@@ -1,0 +1,15 @@
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   Frontend      │    │    Backend       │    │   Database      │
+│   (Next.js)     │◄──►│   (Node.js +     │◄──►│   (MongoDB)     │
+│                 │    │    Express)       │    │                 │
+│ - React         │    │ - REST API       │    │ - Users         │
+│ - TailwindCSS   │    │ - Authentication │    │ - Products      │
+│ - State Mgmt    │    │ - Payment        │    │ - Orders        │
+│ - Stripe        │    │ - Email          │    │ - Categories    │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
+         │                        │                       │
+         │                        │                       │
+┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+│   Vercel        │    │   Railway/Render │    │   MongoDB Atlas │
+│   Deployment    │    │   Deployment     │    │   Cloud DB      │
+└─────────────────┘    └──────────────────┘    └─────────────────┘
